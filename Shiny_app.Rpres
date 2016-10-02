@@ -1,0 +1,82 @@
+Our Anime and Movie suggestions as per your mood
+========================================================
+author: Surya Teja Vala
+date: 02/10/2016
+
+========================================================
+
+This application is developed using R Programming 
+language in R Studio's IDE. The application
+used shiny environment under R studio for interface
+desigening.
+This is a fairly good app that can be used to 
+get some good suggestions about music and movies.
+I'll be updating this app in future and will deploy
+some algorithm combined with a good database to
+provide better and wide range of suggestions.
+
+Main uses of application are as follows:
+
+- Suggesting an Anime (japanese animation) according to mood
+- Suggesting a top rated hollywood movie according to genre input
+
+
+Instructions
+========================================================
+
+While inputting the mood and genre always use lower-case leeters
+
+Below is the list of moods you can enter:
+
+- happy
+- sad
+- alone
+- angry
+- bitchy
+- blank
+- confused
+- depressed
+
+========================================================
+
+- energetic
+- geeky
+- high 
+- lazy
+- pleased
+ 
+Below is the list of genre you can enter:
+
+- action
+- musicals
+- biopic
+- period
+- romance
+
+========================================================
+
+- animation
+- science fiction
+- cult
+- disaster
+- spy
+- drama
+- fantasy
+- thriller
+- gangster
+- war
+- westerns
+- horror
+- adventure
+
+Slide With Code
+========================================================
+```{r}
+
+x <- rnorm(100) 
+y <- x + rnorm(100)
+plot(x,y,xlab="smile", ylab="happiness", main="Relation b/w laughing and happiness" )
+
+```
+
+
